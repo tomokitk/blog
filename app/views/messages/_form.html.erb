@@ -21,11 +21,16 @@
     <%= form.text_area :message, id: :message_message %>
   </div>
   
-  <div class="name">
+  <div class="field">
     <%= form.label :name %>
     <%= form.text_field :name, id: :message_name %>
   </div>
-
+  
+  <div class="field">
+    <%= form.label :age %>
+    <%= form.text_field :age, id: :message_age %>
+  </div>
+  
   <div class="actions">
     <%= form.submit %>
   </div>
